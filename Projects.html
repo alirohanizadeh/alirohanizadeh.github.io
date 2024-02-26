@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Projects - Ali Rohanizadeh</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+/* Style the header */
+.header {
+padding: 20px;
+text-align: center;
+background: #1abc9c;
+color: white;
+}
+
+/* Style the navigation bar */
+.navbar {
+display: flex;
+background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Style the main content */
+.main {
+padding: 20px;
+}
+
+/* Style the project section */
+.project {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+align-items: center;
+}
+
+/* Style the project items */
+.project .item {
+display: flex;
+flex-direction: column;
+}
+
+/* Style the images */
+.project img {
+width: 500px;
+height: auto;
+}
+
+/* Style the titles */
+.project .title {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+color: #333;
+margin-top: 10px;
+}
+
+/* Style the descriptions */
+.project .description {
+text-align: justify;
+font-size: 16px;
+color: #333;
+margin-top: 10px;
+}
+
+/* Style the footer */
+.footer {
+padding: 10px;
+text-align: center;
+background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the project section stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.project {
+grid-template-columns: 1fr;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Ali Rohanizadeh</h1>
+<p>Electronic Engineer with 15+ years of experience in embedded systems and software</p>
+</div>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div class="main">
+<h2>Projects</h2>
+<p>These are just some of the projects I have worked on in recent years.</p>
+<div class="project">
+<div class="item">
+<img src="images/TMAP_Tester.jpg" alt="TMAP sensor tester">
+<div class="title">TMAP Sensor Tester</div>
+<div class="description">This device is a TMAP sensor tester that can test the functionality of any TMAP sensor in an engine. A TMAP sensor is a device that measures the pressure and temperature of the intake air in an engine. It helps to optimize the air-fuel ratio, engine performance, fuel efficiency, and emissions control.
+
+The device has a simple and user-friendly interface that allows you to connect the TMAP sensor to the device, select the sensor type and model, and start the testing process. The device will display the pressure and temperature readings from the sensor, as well as the expected values and the error margin. The device will also indicate if the sensor is working properly or not, and if there are any faults or defects in the sensor. 
+
+The device is a professional tool for testing the functionality of TMAP sensors and ensuring their reliability and accuracy. The device can help you diagnose and troubleshoot any problems with your TMAP sensors and improve your engine performance and efficiency.[^1^].</div>
+</div>
+<div class="item">
+<img src="images/SmartCity.jpg" alt="Smart city project">
+<div class="title">Smart City Project</div>
+<div class="description">This project is about developing a smart city system that uses IoT devices and sensors to monitor and control various aspects of the city, such as traffic, parking, lighting, waste management, air quality, and security[^2^].</div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<p>© 2024 Ali Rohanizadeh. All rights reserved.</p>
+</div>
+
+</body>
+</html>
